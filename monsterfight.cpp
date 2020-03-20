@@ -27,12 +27,6 @@ public:
         m_attackPower(attackPower),
         m_goldCount(goldCount)
     {};
-    // Setters:
-    //void setName(std::string name) { m_name = name; }
-    //void setSymbol(char symbol) { m_symbol = symbol; }
-    //void setHealthPoint(int healthPoint) { m_healthPoint = healthPoint; }
-    //void setAttackPower(int attackPower) { m_attackPower = attackPower; }
-    //void setGoldCount(int goldCount) { m_goldCount = goldCount; }
 
     // Getters:
     const std::string& getName() const { return m_name; }
